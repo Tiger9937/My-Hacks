@@ -1,0 +1,3 @@
+https://devpost.com/software/new-hackathon-platform/api/v1/hackathons?api_key=${API_KEY}
+
+UTZUQMA6XJOWNC7W7CPO
