@@ -1,0 +1,18 @@
+h1 span{ 
+    letter-spacing: 1px;
+    animation: amin 1s linear infinite
+}
+@keyframes amin {
+    0%{
+        display: inline-block;
+        transform: rot;
+        
+        filter: blur(30px);
+    }
+    100%{
+        
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+    
+}

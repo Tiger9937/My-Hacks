@@ -4,6 +4,8 @@ function Button({
   children="More News",
   Type,
   w="96",
+  backgroundColor = "custom_Orang",
+  
   ClassName
 
 }) {
@@ -13,7 +15,7 @@ function Button({
       w-32
       h-10
       text-white 
-      bg-custom_Orang 
+      bg-${backgroundColor} 
       hover:bg-yellow-500 
       focus:outline-none 
       focus:ring-4 

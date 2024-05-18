@@ -19,6 +19,7 @@ function Login() {
         setLoading(true)
         await Appwrite.Appuser(data)
         await Appwrite.Getuser()
+        
         console.log(data,"Now user Login")
         setLoading(false)
         navigate("/")
